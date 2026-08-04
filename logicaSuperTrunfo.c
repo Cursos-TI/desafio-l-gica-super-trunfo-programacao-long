@@ -14,7 +14,7 @@ float area_km2_1 = 3308.1;
 float Pib_1 = 258610910.75;
 char estado_1 [20] = "MG";
 char codigo_1 [5] = "A01";
-char cidade_1 [50] = "SF";
+char cidade_1 [50] = "Sao Francisco";
 float densidade_demografica_1;
 float Pib_per_capita_1;
 
@@ -95,7 +95,7 @@ printf("===CADASTRO DA CARTA 2===\n");
     
 // --- COMPARAÇAO E EXIBIÇAO DE RESULTADO ---
 printf("\n =================================== \n");
-printf("          RESULTADO DA COMPATRAÇAO            \n");
+printf("          RESULTADO DA COMPARAÇAO            \n");
 printf(" =======================================\n");
 
 printf("Atributo:Pib\n");
@@ -105,12 +105,11 @@ printf("carta_2 (%s):%.2f\n",cidade_2,Pib_2);
 
 if (Pib_1>Pib_2) {
     printf("Resultado:carta_2 (%s) venceu!\n" ,cidade_2);
-}else (Pib_1>Pib_2){
+}else (Pib_1>Pib_2);{
     printf("Resultado:carta_1 (%s) venceu!\n" ,cidade_1);
     printf("Resultado:Empate!\n");
-    printf("A cidade vencedora e:%s\n",cidade_2)
+    printf("A cidade vencedora e:%s\n",cidade_2);
 }
-
 
 
     // Comparação de Cartas:
@@ -130,8 +129,6 @@ if (Pib_1>Pib_2) {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
-
 
 
     return 0;
