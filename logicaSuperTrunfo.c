@@ -105,7 +105,7 @@ printf("carta_2 (%s):%.2f\n",cidade_2,Pib_2);
 
 if (Pib_1>Pib_2) {
     printf("Resultado:carta_2 (%s) venceu!\n" ,cidade_2);
-}else (Pib_1>Pib_2);{
+}else (Pib_1<Pib_2);{
     printf("Resultado:carta_1 (%s) venceu!\n" ,cidade_1);
     printf("Resultado:Empate!\n");
     printf("A cidade vencedora e:%s\n",cidade_2);
